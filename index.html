@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorey Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Memorey Game</h2> 
+    <hr style=" width: 50%;text-align: center; margin-top: -20px;">
+    <div class="score-reset">
+   <p>  Score : <span id="result"></span></p>
+   <button id="reset" onclick="resetGame()">Reset</button>
+    </div>
+    
+    <div id="grid"></div>
+  </div>
+  <canvas id="my-canvas"></canvas>
+ <script src="index.min.js"></script>
+  <script src="index.js"></script>
+ 
+</body>
+</html>

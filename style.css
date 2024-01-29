@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Source Code Pro', monospace;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    height: 100vh;
+    background-color: #294B29;
+   
+}
+.box{
+    background-color: #50623A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 100vh;
+    width: 532px;
+    height: 516px;
+   
+}
+.box h2{
+    font-size: 2.1rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 28px;
+
+
+}
+.box p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#result{
+    font-size: 1.2rem;
+    color: #FDD835;
+}
+.img{
+    transform: rotate();
+}
+.score-reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: -2px;
+}
+#reset{
+    padding: 10px 28px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background: #FF6868;
+    color: #fff;
+    border: none;
+}
+#grid{
+
+
+
+text-align: center;
+
+}
+#grid img{
+    cursor: pointer;
+    margin: 6px 12px;
+    border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 32px;
+}
+#my-canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    visibility: hidden;
+}
+#my-canvas.active{
+    visibility: visible;
+}
+@media (max-width:399px){
+    body{
+        background-color: red;
+    }
+   .box{
+    width: 497px;
+   height: 646px;
+
+   }
+}
