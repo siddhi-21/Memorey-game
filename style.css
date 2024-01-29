@@ -92,9 +92,7 @@ text-align: center;
     visibility: visible;
 }
 @media (max-width:399px){
-    body{
-        background-color: red;
-    }
+
    .box{
     width: 497px;
    height: 646px;
